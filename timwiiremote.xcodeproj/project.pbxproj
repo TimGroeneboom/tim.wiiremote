@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224F53FC10E7845900025557 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F53FB10E7845900025557 /* Cocoa.framework */; };
+		224F540310E7848F00025557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F540210E7848F00025557 /* Foundation.framework */; };
+		224F540910E784BF00025557 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F540810E784BF00025557 /* CoreData.framework */; };
+		224F544310E7886000025557 /* WiiMote.h in Headers */ = {isa = PBXBuildFile; fileRef = 224F544110E7886000025557 /* WiiMote.h */; };
+		224F544410E7886000025557 /* WiiMote.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F544210E7886000025557 /* WiiMote.m */; };
+		22B5DA8D10E7B5820024152F /* WiiRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5DA8810E7B5820024152F /* WiiRemote.h */; };
+		22B5DA8E10E7B5820024152F /* WiiRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5DA8910E7B5820024152F /* WiiRemote.m */; };
+		22B5DA8F10E7B5820024152F /* WiiRemoteDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5DA8A10E7B5820024152F /* WiiRemoteDiscovery.h */; };
+		22B5DA9010E7B5820024152F /* WiiRemoteDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5DA8B10E7B5820024152F /* WiiRemoteDiscovery.m */; };
+		22B5DA9110E7B5820024152F /* WiiRemotePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5DA8C10E7B5820024152F /* WiiRemotePrivate.h */; };
+		22B5DAAC10E7B63B0024152F /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B5DAAB10E7B63B0024152F /* IOBluetooth.framework */; };
+		22CF11AE0EE9A8840054F513 /* timwiiremote.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22CF11AD0EE9A8840054F513 /* timwiiremote.mm */; };
+		2FBBEADE08F335360078DB84 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54266BCE05E6E9780000000C /* MaxAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		224F53FB10E7845900025557 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		224F540210E7848F00025557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		224F540810E784BF00025557 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		224F544110E7886000025557 /* WiiMote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiMote.h; sourceTree = "<group>"; };
+		224F544210E7886000025557 /* WiiMote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiMote.m; sourceTree = "<group>"; };
+		22B5DA8810E7B5820024152F /* WiiRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemote.h; sourceTree = "<group>"; };
+		22B5DA8910E7B5820024152F /* WiiRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiRemote.m; sourceTree = "<group>"; };
+		22B5DA8A10E7B5820024152F /* WiiRemoteDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemoteDiscovery.h; sourceTree = "<group>"; };
+		22B5DA8B10E7B5820024152F /* WiiRemoteDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiRemoteDiscovery.m; sourceTree = "<group>"; };
+		22B5DA8C10E7B5820024152F /* WiiRemotePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemotePrivate.h; sourceTree = "<group>"; };
+		22B5DAAB10E7B63B0024152F /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = ../maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		22CF11AD0EE9A8840054F513 /* timwiiremote.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = timwiiremote.mm; sourceTree = "<group>"; };
+		2FBBEAE508F335360078DB84 /* tim.wiiremote.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tim.wiiremote.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		54266BCE05E6E9780000000C /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "../../c74support/max-includes/MaxAPI.framework"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBBEADC08F335360078DB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBBEADE08F335360078DB84 /* MaxAPI.framework in Frameworks */,
+				224F53FC10E7845900025557 /* Cocoa.framework in Frameworks */,
+				224F540310E7848F00025557 /* Foundation.framework in Frameworks */,
+				224F540910E784BF00025557 /* CoreData.framework in Frameworks */,
+				22B5DAAC10E7B63B0024152F /* IOBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				22CF10220EE984600054F513 /* maxmspsdk.xcconfig */,
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = iterator;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				22B5DAAB10E7B63B0024152F /* IOBluetooth.framework */,
+				224F540810E784BF00025557 /* CoreData.framework */,
+				224F540210E7848F00025557 /* Foundation.framework */,
+				224F53FB10E7845900025557 /* Cocoa.framework */,
+				54266BCE05E6E9780000000C /* MaxAPI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				22B5DAB110E7B6DF0024152F /* WiiRemoteFramework */,
+				224F544110E7886000025557 /* WiiMote.h */,
+				224F544210E7886000025557 /* WiiMote.m */,
+				22CF11AD0EE9A8840054F513 /* timwiiremote.mm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBEAE508F335360078DB84 /* tim.wiiremote.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B5DAB110E7B6DF0024152F /* WiiRemoteFramework */ = {
+			isa = PBXGroup;
+			children = (
+				22B5DA8810E7B5820024152F /* WiiRemote.h */,
+				22B5DA8910E7B5820024152F /* WiiRemote.m */,
+				22B5DA8A10E7B5820024152F /* WiiRemoteDiscovery.h */,
+				22B5DA8B10E7B5820024152F /* WiiRemoteDiscovery.m */,
+				22B5DA8C10E7B5820024152F /* WiiRemotePrivate.h */,
+			);
+			name = WiiRemoteFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBEAD708F335360078DB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224F544310E7886000025557 /* WiiMote.h in Headers */,
+				22B5DA8D10E7B5820024152F /* WiiRemote.h in Headers */,
+				22B5DA8F10E7B5820024152F /* WiiRemoteDiscovery.h in Headers */,
+				22B5DA9110E7B5820024152F /* WiiRemotePrivate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FBBEAD608F335360078DB84 /* max-external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */;
+			buildPhases = (
+				2FBBEAD708F335360078DB84 /* Headers */,
+				2FBBEAD808F335360078DB84 /* Resources */,
+				2FBBEADA08F335360078DB84 /* Sources */,
+				2FBBEADC08F335360078DB84 /* Frameworks */,
+				2FBBEADF08F335360078DB84 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "max-external";
+			productName = iterator;
+			productReference = 2FBBEAE508F335360078DB84 /* tim.wiiremote.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "timwiiremote" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBBEAD608F335360078DB84 /* max-external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBBEAD808F335360078DB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2FBBEADF08F335360078DB84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBBEADA08F335360078DB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF11AE0EE9A8840054F513 /* timwiiremote.mm in Sources */,
+				224F544410E7886000025557 /* WiiMote.m in Sources */,
+				22B5DA8E10E7B5820024152F /* WiiRemote.m in Sources */,
+				22B5DA9010E7B5820024152F /* WiiRemoteDiscovery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBBEAD008F335010078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		2FBBEAD108F335010078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		2FBBEAE108F335360078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "/Applications/Max5/Cycling '74/max-externals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Development;
+		};
+		2FBBEAE208F335360078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = "/Applications/Max5/Cycling '74/max-externals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+				);
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "timwiiremote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAD008F335010078DB84 /* Development */,
+				2FBBEAD108F335010078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAE108F335360078DB84 /* Development */,
+				2FBBEAE208F335360078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
