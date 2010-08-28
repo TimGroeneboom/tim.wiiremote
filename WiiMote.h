@@ -1,9 +1,8 @@
 //
 //  WiiMote.h
-//  GoogleEarthController
+//  tim.wiiremote
 //
-//  Created by Tim Groeneboom on 2/6/08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
+//  Copyright Tim Groeneboom 2010. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
@@ -20,7 +19,7 @@
 	
 	BOOL isActiveBool;
 	double _azimuth, _distance;
-		
+	
 	id _delegate;
 	int Num;
 	
